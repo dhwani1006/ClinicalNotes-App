@@ -51,7 +51,7 @@ export default function NewNote() {
 
         const data = await res.json();
 
-        // ✅ Combine + dedupe AI results instead of replacing
+        //Combine + dedupe AI results instead of replacing
         setAi((prev) => ({
           diagnosis: Array.from(
             new Set([...(prev.diagnosis || []), ...(data.diagnosis || [])])
