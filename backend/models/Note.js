@@ -37,37 +37,3 @@ const NoteSchema = new mongoose.Schema(
 const Note = mongoose.model("Note", NoteSchema);
 export default Note;
 
-
-
-// import mongoose from "mongoose";
-
-// const MedicineSchema = new mongoose.Schema({
-//   name: String,
-//   dose: String,
-//   frequency: String,
-//   duration: String,
-//   instructions: String,
-// });
-
-// const LabTestSchema = new mongoose.Schema({
-//   name: String,
-// });
-
-// const NoteSchema = new mongoose.Schema({
-//   patientName: String,
-//   phone: String,
-//   age: String,
-//   gender: String,
-//   symptoms: String,
-//   diagnosis: String,
-//   ipdAdvice: String,
-//   medicines: [MedicineSchema],
-//   labTests: [LabTestSchema],
-//   createdAt: {
-//     type: Date,
-//     default: Date.now,
-//   },
-// });
-
-// const Note = mongoose.model("Note", NoteSchema);
-// export default Note;
