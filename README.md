@@ -48,7 +48,7 @@ AI Clinical Notes Assistant is a full-stack web application that helps users cre
 
 ###  AI Suggestions
 
-![AI Suggestions](./Alsuggestions.png)
+![AISuggestions](./Alsuggestions.png)
 
 ###  Dashboard
 
