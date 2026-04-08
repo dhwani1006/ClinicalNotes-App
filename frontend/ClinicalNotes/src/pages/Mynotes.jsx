@@ -16,18 +16,6 @@ export default function Mynotes() {
     fetchNotes();
   }, []);
 
-  // const fetchNotes = async () => {
-  //   try {
-  //     const res = await fetch("http://localhost:5000/api/notes");
-  //     const data = await res.json();
-  //     setNotes(data);
-  //     setLoading(false);
-  //   } catch (err) {
-  //     console.error(err);
-  //     setLoading(false);
-  //   }
-  // };
-
   const fetchNotes = async () => {
   try {
     const token = localStorage.getItem("token");
