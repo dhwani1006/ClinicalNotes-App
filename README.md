@@ -1,3 +1,5 @@
+# AI Clinical Notes Assistant
+
 ## Overview
 
 AI Clinical Notes Assistant is a full-stack web application that helps users create and manage clinical notes with the help of AI-powered suggestions. Users can input patient details, receive intelligent suggestions, download reports, and share them via WhatsApp.
